@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string[] ppl = { "Anton Tammsaare", "Lydia Koidula", "August Gailit", "Betti Alver" };
+            foreach (string i in ppl)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
